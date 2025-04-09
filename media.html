@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me  - Media Showcase</title>
+</head>
+<body>
+    <hi>Welcome to my Page.</hi>
+    <p1>This is a powerful message about myself, featuring all the key media elements available in HTML.</p1>
+    <h2>About Me</h2>
+    <p2>Hello, I’m Jason Mwome Loveth, a driven Cloud Engineering student at Alt School Africa, passionately committed to harnessing technology for impactful solutions. With a hunger for knowledge and a determination to succeed, I consistently push boundaries to explore innovative ways of leveraging the power of the cloud. My journey is fueled by a deep-seated belief in collaboration, inclusivity, and continuous growth. I am eager to connect with like-minded individuals who share my passion for shaping the future of technology. Through dedication, resilience, and an unwavering pursuit of excellence, I aim to leave a lasting legacy in the global digital realm.</p2>
+  <!-- Example 1: Simple img element -->
+  <h2>My Photo</h2>
+  <img src="2021_11_14_17_51_IMG_2540.JPG" alt="A photo of me" width="300">
+
+  <!-- Example 2: Using a Picture element for responsiveness -->
+  <h2>Responsive Photo</h2>
+  <picture>
+    <!-- For mobile devices (max-width: 480px) -->
+    <source media="(max-width: 480px)" srcset="2021_11_14_17_51_IMG_2540.JPG">
+    <!-- For tablets (max-width: 768px) -->
+    <source media="(max-width: 768px)" srcset="2021_11_14_17_51_IMG_2540.JPG">
+    <!-- Default / fallback for larger screens -->
+    <img src="2021_11_14_17_51_IMG_2540.JPG" alt="A photo of me">
+  </picture>
+    <!--The rest of my media elements go here-->
+    <h2>This is a video of me </h2>
+    <video controls width="600">
+        <source src="" type="2021-11-12-17-50-IMG-2547.MOV"type="video/quicktime">
+        <source src="2021_11_14_17_50_IMG_2547.MOV" type="video/mp4">
+        
+    </video>
+</body>
+</html>
